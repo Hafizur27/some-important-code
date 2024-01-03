@@ -1,6 +1,4 @@
-import { useEffect, useState } from "react";
-import { set, useForm } from "react-hook-form";
-
+import { useState } from "react";
 const userData = [
   { name: "Jeevan", isChecked: false },
   { name: "Manish", isChecked: false },
