@@ -22,7 +22,7 @@ const AddCsDagAndKhaytan = () => {
   const token = localStorage.getItem("token");
   const navigate = useNavigate();
 
-  //-------get mouza info by id select option start---------------
+  //-------get mouza info by id select-------------
   const handleSelectById = (e) => {
     e.preventDefault();
     setDefaultData(
